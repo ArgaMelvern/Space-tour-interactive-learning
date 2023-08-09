@@ -19,7 +19,7 @@
         <section class="flow" id="colors" style="margin: 4rem 0">
             <h2 class="numbered-title"><span>01</span> colors</h2>
             <div class="flex">
-                <div class="flow" style="flex-grow: 1;">  
+                <div class="" style="flex-grow: 1;">  
                     <div class="bg-dark text-white fs-500 ff-serif" style="padding: 3rem 1rem 1rem; border: 1px solid white">
                         #0B0D17
                     </div>
