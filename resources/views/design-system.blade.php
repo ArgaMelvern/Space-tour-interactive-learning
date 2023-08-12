@@ -88,6 +88,70 @@
             </div>
             
         </section>
+
+        <section class="flow" id="interactive-elements">
+            <h2 class="numbered-title"><span>03</span> interactive elements</h2>
+            
+            <!-- navigation -->
+            <div class="flow">
+                <nav>
+                    <ul class="primary-navigation flex underline-indicators">
+                        <li class="active"><a class="uppercase ff-serif fs-400 text-white letter-spacing-2" href="#"><span>00</span>Active</a>
+                        <li><a class="uppercase ff-serif fs-400 text-white letter-spacing-2" href="#"><span>01</span>Hovered</a>
+                        <li><a class="uppercase ff-serif fs-400 text-white letter-spacing-2" href="#"><span>02</span>Idle</a>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="flow"  style="--flow-space: 2rem; text-align: center;">
+                <p class="fs-300 text-accent">Different States of Navigation Bar</p>
+            </div>
+
+            <div class="flex">
+                <div style="margin: 5rem 7rem;">
+                    <!-- explore button -->
+                    <a href="#" class="large-button uppercase ff-serif text-dark bg-white fs-600">Explore</a>
+                    <p class="fs-300 text-accent" style="margin-top: 3rem;">Landing Page Main Button - idle/hover</p>
+                </div>
+                
+                <div class="flow" style="margin: 5rem; padding-left: 13rem; --flow-space: 5rem;">
+                    <!-- Tabs -->
+                    <div class="tab-list flex underline-indicators" style="justify-content: center">
+                        <button aria-selected="true" class="uppercase bg-dark ff-sans-cond text-accent letter-spacing-2">Moon</button>
+                        <button aria-selected="false" class="uppercase bg-dark ff-sans-cond text-accent letter-spacing-2">Mars</button>
+                        <button aria-selected="false" class="uppercase bg-dark ff-sans-cond text-accent letter-spacing-2">Europa</button>
+                    </div>
+
+                    <div class="flow"  style="--flow-space: 1rem; text-align: center;">
+                        <p class="fs-300 text-accent">Tab(Active, Hover, & Idle)</p>
+                    </div>
+                    
+                    <!-- Dots -->
+                    <div class="dot-indicators flex" style="justify-content: center">
+                        <button aria-selected="true"><span class="sr-only">Slide title</span></button>
+                        <button aria-selected="false"><span class="sr-only">Slide title</span></button>
+                        <button aria-selected="false"><span class="sr-only">Slide title</span></button>
+                    </div>
+
+                    <div class="flow"  style="--flow-space: 1rem; text-align: center;">
+                        <p class="fs-300 text-accent">Slider 1 States (Active, Hover, & Idle)</p>
+                    </div>
+                    
+                    <!-- Numbers -->
+                    <div class="number-indicators" style="justify-items: center">
+                        <a href="#" class="active uppercase ff-serif text-white fs-400">1</a>
+                        <a href="#" class="uppercase ff-serif text-white fs-400">2</a>
+                        <a href="#" class="uppercase ff-serif text-white fs-400">3</a>
+                    </div>
+
+                    <div class="flow"  style="--flow-space: 1rem; text-align: center;">
+                        <p class="fs-300 text-accent">Slider 2 States (Active, Hover, & Idle)</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </div>
+    <script src="{{ URL::asset('js/script.js') }}"> </script>
 </body>
 </html>
