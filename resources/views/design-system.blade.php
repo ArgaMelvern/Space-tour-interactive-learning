@@ -117,9 +117,9 @@
                 <div class="flow" style="margin: 5rem; padding-left: 13rem; --flow-space: 5rem;">
                     <!-- Tabs -->
                     <div class="tab-list flex underline-indicators" style="justify-content: center">
-                        <button aria-selected="true" class="uppercase bg-dark ff-sans-cond text-accent letter-spacing-2">Moon</button>
-                        <button aria-selected="false" class="uppercase bg-dark ff-sans-cond text-accent letter-spacing-2">Mars</button>
-                        <button aria-selected="false" class="uppercase bg-dark ff-sans-cond text-accent letter-spacing-2">Europa</button>
+                        <button aria-selected="true" class="uppercase ff-sans-cond text-accent letter-spacing-2">Moon</button>
+                        <button aria-selected="false" class="uppercase ff-sans-cond text-accent letter-spacing-2">Mars</button>
+                        <button aria-selected="false" class="uppercase ff-sans-cond text-accent letter-spacing-2">Europa</button>
                     </div>
 
                     <div class="flow"  style="--flow-space: 1rem; text-align: center;">
